@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Rain(character: "❄️")
+            Rain(character: "❄️", direction: .bottom)
             VStack {
                 Image(systemName: "globe")
                     .imageScale(.large)
